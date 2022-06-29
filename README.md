@@ -11,3 +11,11 @@ Swagger editor: https://editor.swagger.io/
 ```bash
 docker run --rm -p 80:80 -p 8080:8080 swaggerapi/swagger-editor
 ```
+
+### Helm
+
+Add helm repo:
+```bash
+helm repo add cetic https://cetic.github.io/helm-charts
+helm repo update
+```
